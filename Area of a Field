@@ -1,0 +1,26 @@
+import math
+
+# Inputs
+
+# obtaining length and width as input
+length = input("Enter a length in feet")
+width = input("Enter a width in feet")
+
+# converting length/width to int
+length = int(length)
+width = int(width)
+
+# calculate the area
+area = length * width
+
+# converting area to integer
+area = int(area)
+
+# conversion unit
+acre = area/43560
+
+# define acre
+acre = float(acre)
+
+# concatenation
+print("The area in acres is: " + str(acre))
