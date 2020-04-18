@@ -13,7 +13,7 @@ second = input("Enter seconds: ")
 second = int(second)
 
 # calculate them to seconds
-total = day*86400 + hour*3600 + minute*601 + second
+total = day*86400 + hour*3600 + minute*60+ second
 total = int(total)
 
 # display the total second to user
